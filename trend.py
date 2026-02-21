@@ -1,4 +1,4 @@
-“””
+""
 トレンドシグナル分析ツール ─ クラウド対応・モバイル最適化版
 ══════════════════════════════════════════════════════════
 Streamlit Community Cloud で動作する本番対応版。
@@ -6,7 +6,7 @@ APScheduler の代わりに st.cache_data + time.sleep による
 ポーリング方式で安定した自動更新を実現。
 
 デプロイ先: https://streamlit.io/cloud
-“””
+“”
 
 import warnings, time
 from datetime import datetime
